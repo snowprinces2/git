@@ -1,0 +1,291 @@
+(pcb C:\Users\akito\Desktop\Densou\kicad\HightSensor\pra1.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 76025.4 -69954.8 149767 -111173)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm
+      (place C1 140970 -74930 front 0 (PN 0.1u))
+      (place C2 118110 -104140 front 0 (PN 0.1u))
+    )
+    (component "SamacSys_Parts:DIP254P762X457-28"
+      (place IC1 97790 -104140 front 0 (PN "ATMEGA168-20PU?Arduino"))
+    )
+    (component "Displays_7-Segment:KCSC02-136"
+      (place LED3.2V1 121920 -93980 front 0 (PN "10-PA5"))
+      (place LED3.2V2 121920 -81280 front 0 (PN "10-PA5"))
+    )
+    (component Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+      (place R1 105410 -74930 front 0 (PN 10k))
+    )
+    (component "kicdFirstProject:SCP1000-D01"
+      (place U1 142240 -90170 front 0 (PN "AE-SCP1000-D01"))
+    )
+  )
+  (library
+    (image Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm
+      (outline (path signal 100  -250 800  -250 -800))
+      (outline (path signal 100  -250 -800  2750 -800))
+      (outline (path signal 100  2750 -800  2750 800))
+      (outline (path signal 100  2750 800  -250 800))
+      (outline (path signal 120  663 861  1837 861))
+      (outline (path signal 120  663 -861  1837 -861))
+      (outline (path signal 50  -1050 1150  -1050 -1150))
+      (outline (path signal 50  -1050 -1150  3550 -1150))
+      (outline (path signal 50  3550 -1150  3550 1150))
+      (outline (path signal 50  3550 1150  -1050 1150))
+      (pin Round[A]Pad_1600_um 1 0 0)
+      (pin Round[A]Pad_1600_um 2 2500 0)
+    )
+    (image "SamacSys_Parts:DIP254P762X457-28"
+      (outline (path signal 152.4  -6654.8 -889  -965.2 -889))
+      (outline (path signal 152.4  -965.2 33909  -3505.2 33909))
+      (outline (path signal 152.4  -3505.2 33909  -4114.8 33909))
+      (outline (path signal 152.4  -4114.8 33909  -6299.2 33909))
+      (pin Rect[A]Pad_1676.4x1676.4_um (rotate 90) 1 -7620 33020)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 2 -7620 30480)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 3 -7620 27940)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 4 -7620 25400)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 5 -7620 22860)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 6 -7620 20320)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 7 -7620 17780)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 8 -7620 15240)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 9 -7620 12700)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 10 -7620 10160)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 11 -7620 7620)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 12 -7620 5080)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 13 -7620 2540)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 14 -7620 0)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 15 0 0)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 16 0 2540)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 17 0 5080)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 18 0 7620)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 19 0 10160)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 20 0 12700)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 21 0 15240)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 22 0 17780)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 23 0 20320)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 24 0 22860)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 25 0 25400)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 26 0 27940)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 27 0 30480)
+      (pin Round[A]Pad_1676.4_um (rotate 90) 28 0 33020)
+    )
+    (image "Displays_7-Segment:KCSC02-136"
+      (outline (path signal 50  -6650 3700  6650 3700))
+      (outline (path signal 50  6650 3700  6650 -3700))
+      (outline (path signal 50  6650 -3700  -6650 -3700))
+      (outline (path signal 50  -6650 3700  -6650 -3700))
+      (outline (path signal 120  5060 -3570  -5060 -3570))
+      (outline (path signal 120  -5000 3570  0 3570))
+      (outline (path signal 100  5000 -3450  -5000 -3450))
+      (outline (path signal 100  -5000 -3450  -5000 1450))
+      (outline (path signal 100  -5000 1450  -3000 3450))
+      (outline (path signal 100  -3000 3450  5000 3450))
+      (outline (path signal 100  5000 3450  5000 -3450))
+      (pin Rect[T]Pad_2800x900_um 1 -5000 2880)
+      (pin Rect[T]Pad_2800x900_um 2 -5000 1440)
+      (pin Rect[T]Pad_2800x900_um 3 -5000 0)
+      (pin Rect[T]Pad_2800x900_um 4 -5000 -1440)
+      (pin Rect[T]Pad_2800x900_um 5 -5000 -2880)
+      (pin Rect[T]Pad_2800x900_um 6 5000 -2880)
+      (pin Rect[T]Pad_2800x900_um 7 5000 -1440)
+      (pin Rect[T]Pad_2800x900_um 8 5000 0)
+      (pin Rect[T]Pad_2800x900_um 9 5000 1440)
+      (pin Rect[T]Pad_2800x900_um 10 5000 2880)
+    )
+    (image Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+      (outline (path signal 100  1250 0  1188.82 -386.271  1011.27 -734.732  734.732 -1011.27
+            386.271 -1188.82  0 -1250  -386.271 -1188.82  -734.732 -1011.27
+            -1011.27 -734.732  -1188.82 -386.271  -1250 0  -1188.82 386.271
+            -1011.27 734.732  -734.732 1011.27  -386.271 1188.82  0 1250
+            386.271 1188.82  734.732 1011.27  1011.27 734.732  1188.82 386.271))
+      (outline (path signal 120  1310 0  1245.88 -404.812  1059.81 -769.999  769.999 -1059.81
+            404.812 -1245.88  0 -1310  -404.812 -1245.88  -769.999 -1059.81
+            -1059.81 -769.999  -1245.88 -404.812  -1310 0  -1245.88 404.812
+            -1059.81 769.999  -769.999 1059.81  -404.812 1245.88  0 1310
+            404.812 1245.88  769.999 1059.81  1059.81 769.999  1245.88 404.812))
+      (outline (path signal 100  0 0  2540 0))
+      (outline (path signal 120  1310 0  1440 0))
+      (outline (path signal 50  -1600 1600  -1600 -1600))
+      (outline (path signal 50  -1600 -1600  3650 -1600))
+      (outline (path signal 50  3650 -1600  3650 1600))
+      (outline (path signal 50  3650 1600  -1600 1600))
+      (pin Round[A]Pad_1600_um 1 0 0)
+      (pin Oval[A]Pad_1600x1600_um 2 2540 0)
+    )
+    (image "kicdFirstProject:SCP1000-D01"
+      (outline (path signal 200  -6800 7000  7000 6900))
+      (outline (path signal 200  7000 6900  7000 -4300))
+      (outline (path signal 200  7000 -4300  -7000 -4200))
+      (outline (path signal 200  -7000 -4200  -6800 7000))
+      (outline (path signal 200  -6800 7000  -6800 6900))
+      (pin Round[T]Pad_1500_um 5 3810 -2540)
+      (pin Round[T]Pad_1500_um 4 -3810 -2540)
+      (pin Round[T]Pad_1500_um 6 3810 0)
+      (pin Round[T]Pad_1500_um 3 -3810 0)
+      (pin Round[T]Pad_1500_um 2 -3800 2540)
+      (pin Round[T]Pad_1500_um 7 3810 2540)
+      (pin Round[T]Pad_1500_um 1 -3810 5080)
+      (pin Round[T]Pad_1500_um 8 3810 5080)
+    )
+    (padstack Round[T]Pad_1500_um
+      (shape (circle F.Cu 1500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1600_um
+      (shape (circle F.Cu 1600))
+      (shape (circle B.Cu 1600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1676.4_um
+      (shape (circle F.Cu 1676.4))
+      (shape (circle B.Cu 1676.4))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1600x1600_um
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2800x900_um
+      (shape (rect F.Cu -1400 -450 1400 450))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1676.4x1676.4_um
+      (shape (rect F.Cu -838.2 -838.2 838.2 838.2))
+      (shape (rect B.Cu -838.2 -838.2 838.2 838.2))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net VCC
+      (pins C1-1 IC1-7 IC1-20 R1-2 U1-8)
+    )
+    (net GND
+      (pins C1-2 C2-2 IC1-8 IC1-22 U1-4 U1-2 U1-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 IC1-21)
+    )
+    (net "Net-(IC1-Pad1)"
+      (pins IC1-1 R1-1)
+    )
+    (net "Net-(IC1-Pad2)"
+      (pins IC1-2)
+    )
+    (net "Net-(IC1-Pad3)"
+      (pins IC1-3)
+    )
+    (net "Net-(IC1-Pad4)"
+      (pins IC1-4 LED3.2V1-7 LED3.2V2-7)
+    )
+    (net "Net-(IC1-Pad5)"
+      (pins IC1-5 LED3.2V1-6 LED3.2V2-6)
+    )
+    (net "Net-(IC1-Pad6)"
+      (pins IC1-6 LED3.2V1-4 LED3.2V2-4)
+    )
+    (net "Net-(IC1-Pad9)"
+      (pins IC1-9)
+    )
+    (net "Net-(IC1-Pad10)"
+      (pins IC1-10)
+    )
+    (net "Net-(IC1-Pad11)"
+      (pins IC1-11 LED3.2V1-2 LED3.2V2-2)
+    )
+    (net "Net-(IC1-Pad12)"
+      (pins IC1-12 LED3.2V1-1 LED3.2V2-1)
+    )
+    (net "Net-(IC1-Pad13)"
+      (pins IC1-13 LED3.2V1-9 LED3.2V2-9)
+    )
+    (net "Net-(IC1-Pad14)"
+      (pins IC1-14 LED3.2V1-10 LED3.2V2-10)
+    )
+    (net "Net-(IC1-Pad15)"
+      (pins IC1-15 LED3.2V1-5 LED3.2V2-5)
+    )
+    (net "Net-(IC1-Pad16)"
+      (pins IC1-16 U1-7)
+    )
+    (net "Net-(IC1-Pad17)"
+      (pins IC1-17 U1-5)
+    )
+    (net "Net-(IC1-Pad18)"
+      (pins IC1-18 U1-6)
+    )
+    (net "Net-(IC1-Pad19)"
+      (pins IC1-19 U1-3)
+    )
+    (net "Net-(IC1-Pad23)"
+      (pins IC1-23 LED3.2V2-3 LED3.2V2-8)
+    )
+    (net "Net-(IC1-Pad24)"
+      (pins IC1-24 LED3.2V1-3 LED3.2V1-8)
+    )
+    (net "Net-(IC1-Pad25)"
+      (pins IC1-25)
+    )
+    (net "Net-(IC1-Pad26)"
+      (pins IC1-26)
+    )
+    (net "Net-(IC1-Pad27)"
+      (pins IC1-27)
+    )
+    (net "Net-(IC1-Pad28)"
+      (pins IC1-28)
+    )
+    (class kicad_default "" GND "Net-(C2-Pad1)" "Net-(IC1-Pad1)" "Net-(IC1-Pad10)"
+      "Net-(IC1-Pad11)" "Net-(IC1-Pad12)" "Net-(IC1-Pad13)" "Net-(IC1-Pad14)"
+      "Net-(IC1-Pad15)" "Net-(IC1-Pad16)" "Net-(IC1-Pad17)" "Net-(IC1-Pad18)"
+      "Net-(IC1-Pad19)" "Net-(IC1-Pad2)" "Net-(IC1-Pad23)" "Net-(IC1-Pad24)"
+      "Net-(IC1-Pad25)" "Net-(IC1-Pad26)" "Net-(IC1-Pad27)" "Net-(IC1-Pad28)"
+      "Net-(IC1-Pad3)" "Net-(IC1-Pad4)" "Net-(IC1-Pad5)" "Net-(IC1-Pad6)"
+      "Net-(IC1-Pad9)" VCC
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

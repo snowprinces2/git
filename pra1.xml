@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/akito/Desktop/Densou/kicad/HightSensor/pra1.sch</source>
+    <date>2018/03/28 20:24:54</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pra1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AE-SCP1000-D01</value>
+      <footprint>kicdFirstProject:SCP1000-D01</footprint>
+      <libsource lib="ae-scp1000-d01" part="AE-SCP1000-D01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A87E242</tstamp>
+    </comp>
+    <comp ref="LED3.2V1">
+      <value>10-PA5</value>
+      <footprint>Displays_7-Segment:KCSC02-107</footprint>
+      <libsource lib="10-pa5" part="10-PA5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AACC3D1</tstamp>
+    </comp>
+    <comp ref="LED3.2V2">
+      <value>10-PA5</value>
+      <footprint>Displays_7-Segment:KCSC02-107</footprint>
+      <libsource lib="10-pa5" part="10-PA5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AACC4A6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB3D43</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB5354</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB64CA</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ATMEGA168-20PU?Arduino</value>
+      <footprint>SamacSys_Parts:DIP254P762X457-28</footprint>
+      <datasheet>http://uk.rs-online.com/web/p/products/9225277</datasheet>
+      <fields>
+        <field name="Description">Microcontroller</field>
+        <field name="RS Part Number">9225277</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">ATMEGA168-20PU</field>
+      </fields>
+      <libsource lib="atmega168-20pu_arduino" part="ATMEGA168-20PU?Arduino"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABB484A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="10-pa5" part="10-PA5">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">10-PA5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ae-scp1000-d01" part="AE-SCP1000-D01">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AE-SCP1000-D01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TRIG" type="input"/>
+        <pin num="2" name="DRDY" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="MOSI" type="input"/>
+        <pin num="6" name="MISO" type="input"/>
+        <pin num="7" name="CSB" type="input"/>
+        <pin num="8" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmega168-20pu_arduino" part="ATMEGA168-20PU?Arduino">
+      <description>Microcontroller</description>
+      <docs>http://uk.rs-online.com/web/p/products/9225277</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA168-20PU?Arduino</field>
+        <field name="Footprint">DIP254P762X457-28</field>
+        <field name="Datasheet">http://uk.rs-online.com/web/p/products/9225277</field>
+        <field name="Description">Microcontroller</field>
+        <field name="RS Part Number">9225277</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">ATMEGA168-20PU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="reset" type="BiDi"/>
+        <pin num="2" name="D0" type="BiDi"/>
+        <pin num="3" name="D1" type="BiDi"/>
+        <pin num="4" name="D2" type="BiDi"/>
+        <pin num="5" name="D3" type="BiDi"/>
+        <pin num="6" name="D4" type="BiDi"/>
+        <pin num="7" name="VCC" type="BiDi"/>
+        <pin num="8" name="GND_2" type="BiDi"/>
+        <pin num="9" name="crystal" type="BiDi"/>
+        <pin num="10" name="crystal" type="BiDi"/>
+        <pin num="11" name="D5" type="BiDi"/>
+        <pin num="12" name="D6" type="BiDi"/>
+        <pin num="13" name="D7" type="BiDi"/>
+        <pin num="14" name="D8" type="BiDi"/>
+        <pin num="15" name="D9(PWM)" type="BiDi"/>
+        <pin num="16" name="D10(PWM)" type="BiDi"/>
+        <pin num="17" name="D11(PWM)" type="BiDi"/>
+        <pin num="18" name="D12" type="BiDi"/>
+        <pin num="19" name="D13" type="BiDi"/>
+        <pin num="20" name="AVCC" type="BiDi"/>
+        <pin num="21" name="AREF" type="BiDi"/>
+        <pin num="22" name="GND" type="BiDi"/>
+        <pin num="23" name="A0" type="BiDi"/>
+        <pin num="24" name="A1" type="BiDi"/>
+        <pin num="25" name="A2" type="BiDi"/>
+        <pin num="26" name="A3" type="BiDi"/>
+        <pin num="27" name="A4" type="BiDi"/>
+        <pin num="28" name="A5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files (x86)\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="ae-scp1000-d01">
+      <uri>C:\Users\akito\Desktop\Densou\kicad\HightSensor\ae-scp1000-d01.lib</uri>
+    </library>
+    <library logical="10-pa5">
+      <uri>C:\Users\akito\Desktop\Densou\kicad\HightSensor\10-pa5.lib</uri>
+    </library>
+    <library logical="atmega168-20pu_arduino">
+      <uri>C:\Users\akito\Desktop\Densou\kicad\HightSensor\atmega168-20pu_arduino.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IC1-Pad12)">
+      <node ref="LED3.2V1" pin="1"/>
+      <node ref="LED3.2V2" pin="1"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad5)">
+      <node ref="LED3.2V1" pin="6"/>
+      <node ref="LED3.2V2" pin="6"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad14)">
+      <node ref="LED3.2V2" pin="10"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="LED3.2V1" pin="10"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="7" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="8" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad24)">
+      <node ref="LED3.2V1" pin="3"/>
+      <node ref="IC1" pin="24"/>
+      <node ref="LED3.2V1" pin="8"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad25)">
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad26)">
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad28)">
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad11)">
+      <node ref="LED3.2V1" pin="2"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="LED3.2V2" pin="2"/>
+    </net>
+    <net code="16" name="VCC">
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad19)">
+      <node ref="U1" pin="3"/>
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad17)">
+      <node ref="IC1" pin="17"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad16)">
+      <node ref="U1" pin="7"/>
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad4)">
+      <node ref="LED3.2V1" pin="7"/>
+      <node ref="LED3.2V2" pin="7"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad23)">
+      <node ref="LED3.2V2" pin="8"/>
+      <node ref="LED3.2V2" pin="3"/>
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="15"/>
+      <node ref="LED3.2V1" pin="5"/>
+      <node ref="LED3.2V2" pin="5"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad6)">
+      <node ref="LED3.2V1" pin="4"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="LED3.2V2" pin="4"/>
+    </net>
+    <net code="25" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="IC1" pin="22"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="26" name="Net-(IC1-Pad13)">
+      <node ref="LED3.2V2" pin="9"/>
+      <node ref="IC1" pin="13"/>
+      <node ref="LED3.2V1" pin="9"/>
+    </net>
+  </nets>
+</export>

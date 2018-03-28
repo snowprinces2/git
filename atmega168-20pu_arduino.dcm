@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA168-20PU?Arduino
+D Microcontroller
+F http://uk.rs-online.com/web/p/products/9225277
+$ENDCMP
+#
+#End Doc Library

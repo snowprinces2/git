@@ -1,0 +1,486 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ae-scp1000-d01
+LIBS:SamacSys_Parts
+LIBS:sample
+LIBS:10-pa5
+LIBS:atmega168-20pu_arduino
+LIBS:atmega168-20pu
+LIBS:bdn-3-220glf
+LIBS:pra1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AE-SCP1000-D01 U1
+U 1 1 5A87E242
+P 6200 3250
+F 0 "U1" H 6200 3650 60  0000 C CNN
+F 1 "AE-SCP1000-D01" H 6200 3250 60  0000 C CNN
+F 2 "kicdFirstProject:SCP1000-D01" H 6200 3250 60  0001 C CNN
+F 3 "" H 6200 3250 60  0000 C CNN
+	1    6200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10-PA5 LED3.2V1
+U 1 1 5AACC3D1
+P 3800 1550
+F 0 "LED3.2V1" H 3300 1550 60  0000 C CNN
+F 1 "10-PA5" H 3800 1800 60  0000 C CNN
+F 2 "Displays_7-Segment:KCSC02-107" H 3800 1550 60  0001 C CNN
+F 3 "" H 3800 1550 60  0000 C CNN
+	1    3800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10-PA5 LED3.2V2
+U 1 1 5AACC4A6
+P 4500 1550
+F 0 "LED3.2V2" H 5100 1550 60  0000 C CNN
+F 1 "10-PA5" H 4500 1800 60  0000 C CNN
+F 2 "Displays_7-Segment:KCSC02-107" H 4500 1550 60  0001 C CNN
+F 3 "" H 4500 1550 60  0000 C CNN
+	1    4500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 5AACF14E
+P 4100 5100
+F 0 "#PWR01" H 4100 4850 50  0001 C CNN
+F 1 "GND" H 4100 4950 50  0000 C CNN
+F 2 "" H 4100 5100 50  0000 C CNN
+F 3 "" H 4100 5100 50  0000 C CNN
+	1    4100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5AAD11DB
+P 4350 5100
+F 0 "#PWR02" H 4350 4950 50  0001 C CNN
+F 1 "VCC" H 4350 5250 50  0000 C CNN
+F 2 "" H 4350 5100 50  0000 C CNN
+F 3 "" H 4350 5100 50  0000 C CNN
+	1    4350 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
+U 1 1 5ABB3D43
+P 10800 1925
+F 0 "C2" H 10825 2025 50  0000 L CNN
+F 1 "0.1u" H 10825 1825 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10838 1775 50  0001 C CNN
+F 3 "" H 10800 1925 50  0000 C CNN
+	1    10800 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5ABB5354
+P 10475 2950
+F 0 "C1" H 10500 3050 50  0000 L CNN
+F 1 "0.1u" H 10500 2850 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10513 2800 50  0001 C CNN
+F 3 "" H 10475 2950 50  0000 C CNN
+	1    10475 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5ABB64CA
+P 6975 1075
+F 0 "R1" V 7055 1075 50  0000 C CNN
+F 1 "10k" V 6875 1075 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 6505 875 50  0001 C CNN
+F 3 "" H 6575 875 50  0000 C CNN
+	1    6975 1075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2700 6050 2750
+Wire Wire Line
+	10400 2700 6050 2700
+Wire Wire Line
+	10400 1975 10400 2700
+Wire Wire Line
+	10300 1975 10400 1975
+Wire Wire Line
+	10675 2075 10300 2075
+Wire Wire Line
+	10675 4550 10675 2075
+Wire Wire Line
+	6050 4550 10675 4550
+Wire Wire Line
+	6050 3750 6050 4550
+Wire Wire Line
+	5800 4175 5800 3750
+Wire Wire Line
+	10825 4175 5800 4175
+Wire Wire Line
+	10825 2175 10825 4175
+Wire Wire Line
+	10300 2175 10825 2175
+Wire Wire Line
+	6350 3800 6350 3750
+Wire Wire Line
+	10750 3800 6350 3800
+Wire Wire Line
+	10750 2275 10750 3800
+Wire Wire Line
+	10300 2275 10750 2275
+Connection ~ 5800 2525
+Wire Wire Line
+	5800 2750 5800 2525
+Wire Wire Line
+	1275 4075 1275 4100
+Wire Wire Line
+	1275 3300 1275 3275
+Wire Wire Line
+	10300 1775 10800 1775
+Connection ~ 10950 1675
+Connection ~ 5025 4700
+Wire Wire Line
+	10950 1675 10300 1675
+Wire Wire Line
+	10950 850  10950 4700
+Wire Wire Line
+	7150 850  10950 850 
+Wire Wire Line
+	7150 850  7150 1775
+Wire Wire Line
+	6600 2525 6600 2750
+Wire Wire Line
+	10950 4700 4100 4700
+Wire Wire Line
+	5525 5100 5525 1675
+Wire Wire Line
+	4225 5100 6600 5100
+Connection ~ 2850 950 
+Wire Wire Line
+	2850 1275 2850 800 
+Wire Wire Line
+	1175 1275 2850 1275
+Wire Wire Line
+	1175 3075 1175 1275
+Wire Wire Line
+	1175 3075 3350 3075
+Wire Wire Line
+	3350 3075 3350 4325
+Connection ~ 2800 750 
+Wire Wire Line
+	1100 3300 1100 750 
+Wire Wire Line
+	1100 3300 1275 3300
+Wire Wire Line
+	1275 3275 3200 3275
+Wire Wire Line
+	3200 3275 3200 4275
+Wire Wire Line
+	1050 3475 1050 2375
+Wire Wire Line
+	1050 3475 3100 3475
+Wire Wire Line
+	3100 3475 3100 4225
+Wire Wire Line
+	950  3675 950  2450
+Wire Wire Line
+	950  3675 3000 3675
+Wire Wire Line
+	3000 3675 3000 4125
+Wire Wire Line
+	800  2525 4650 2525
+Wire Wire Line
+	800  3875 800  2525
+Wire Wire Line
+	800  3875 3675 3875
+Wire Wire Line
+	3675 3875 3675 4050
+Wire Wire Line
+	675  4100 675  650 
+Wire Wire Line
+	1275 4100 675  4100
+Wire Wire Line
+	1275 4075 2875 4075
+Wire Wire Line
+	2875 4075 2875 3950
+Wire Wire Line
+	550  550  550  4250
+Wire Wire Line
+	550  550  4650 550 
+Wire Wire Line
+	550  4250 2925 4250
+Wire Wire Line
+	2925 4250 2925 3850
+Wire Wire Line
+	10750 1475 10300 1475
+Wire Wire Line
+	10750 600  10750 1475
+Wire Wire Line
+	3800 600  10750 600 
+Wire Wire Line
+	3800 1050 3800 600 
+Wire Wire Line
+	3075 1050 3800 1050
+Wire Wire Line
+	3075 2250 3075 1050
+Wire Wire Line
+	3800 2250 3075 2250
+Connection ~ 4500 1025
+Wire Wire Line
+	5375 1025 4500 1025
+Wire Wire Line
+	5375 2250 5375 1025
+Wire Wire Line
+	4500 2250 5375 2250
+Wire Wire Line
+	4750 2250 4750 4350
+Connection ~ 4750 2775
+Wire Wire Line
+	4050 2775 4750 2775
+Wire Wire Line
+	4050 2250 4050 2775
+Connection ~ 3950 2525
+Wire Wire Line
+	3950 2250 3950 2525
+Connection ~ 3650 2450
+Wire Wire Line
+	3650 2250 3650 2450
+Connection ~ 3550 2375
+Wire Wire Line
+	3550 2250 3550 2375
+Connection ~ 4050 650 
+Wire Wire Line
+	4050 1050 4050 650 
+Connection ~ 3950 550 
+Wire Wire Line
+	3950 1050 3950 550 
+Connection ~ 3650 750 
+Wire Wire Line
+	3650 750  3650 1050
+Wire Wire Line
+	3550 950  3550 1050
+Wire Wire Line
+	2850 950  3550 950 
+Wire Wire Line
+	4750 4350 10300 4350
+Wire Wire Line
+	4500 700  4500 1050
+Wire Wire Line
+	10650 700  4500 700 
+Wire Wire Line
+	10650 1575 10650 700 
+Wire Wire Line
+	10300 1575 10650 1575
+Wire Wire Line
+	5525 1675 7300 1675
+Connection ~ 6350 2525
+Wire Wire Line
+	10300 4350 10300 2375
+Wire Wire Line
+	7275 2375 7300 2375
+Wire Wire Line
+	7175 2275 7300 2275
+Wire Wire Line
+	7100 2175 7300 2175
+Wire Wire Line
+	7025 2075 7300 2075
+Wire Wire Line
+	6950 1575 7300 1575
+Wire Wire Line
+	6875 1475 7300 1475
+Wire Wire Line
+	6800 1375 7300 1375
+Wire Wire Line
+	4100 4700 4100 5100
+Wire Wire Line
+	5025 2525 5025 4700
+Wire Wire Line
+	5025 2525 6600 2525
+Wire Wire Line
+	6350 2750 6350 2525
+Wire Wire Line
+	6800 3850 6800 1375
+Wire Wire Line
+	2925 3850 6800 3850
+Wire Wire Line
+	4650 550  4650 1050
+Wire Wire Line
+	6875 3950 6875 1475
+Wire Wire Line
+	2875 3950 6875 3950
+Wire Wire Line
+	675  650  4750 650 
+Wire Wire Line
+	4750 650  4750 1050
+Wire Wire Line
+	6950 4050 6950 1575
+Wire Wire Line
+	3675 4050 6950 4050
+Wire Wire Line
+	4650 2525 4650 2250
+Wire Wire Line
+	7025 4125 7025 2075
+Wire Wire Line
+	3000 4125 7025 4125
+Wire Wire Line
+	950  2450 4350 2450
+Wire Wire Line
+	4350 2450 4350 2250
+Wire Wire Line
+	7100 4225 7100 2175
+Wire Wire Line
+	3100 4225 7100 4225
+Wire Wire Line
+	1050 2375 4250 2375
+Wire Wire Line
+	4250 2375 4250 2250
+Wire Wire Line
+	7175 4275 7175 2275
+Wire Wire Line
+	3200 4275 7175 4275
+Wire Wire Line
+	1100 750  4350 750 
+Wire Wire Line
+	4350 750  4350 1050
+Wire Wire Line
+	7275 4325 7275 2375
+Wire Wire Line
+	3350 4325 7275 4325
+Wire Wire Line
+	2850 800  4250 800 
+Wire Wire Line
+	4250 800  4250 1050
+Wire Wire Line
+	10800 2075 10950 2075
+Connection ~ 10950 2075
+Wire Wire Line
+	10575 2650 6675 2650
+Wire Wire Line
+	6675 2650 6675 1675
+Connection ~ 6675 1675
+Wire Wire Line
+	6600 5100 6600 3750
+Connection ~ 5525 5100
+Wire Wire Line
+	10575 1875 10575 2650
+Wire Wire Line
+	10475 2650 10475 2800
+Connection ~ 10475 2650
+Wire Wire Line
+	10475 3100 10475 4700
+Connection ~ 10475 4700
+Wire Wire Line
+	7300 1075 7125 1075
+Wire Wire Line
+	4350 5100 4350 4950
+Wire Wire Line
+	4350 4950 5125 4950
+Wire Wire Line
+	5125 4950 5125 1075
+Wire Wire Line
+	5125 1075 6825 1075
+NoConn ~ 10300 1075
+NoConn ~ 10300 1175
+NoConn ~ 10300 1275
+NoConn ~ 10300 1375
+NoConn ~ 7300 1175
+NoConn ~ 7300 1275
+NoConn ~ 7300 1875
+NoConn ~ 7300 1975
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5ABBBA4C
+P 3575 5025
+F 0 "#FLG03" H 3575 5120 50  0001 C CNN
+F 1 "PWR_FLAG" H 3575 5205 50  0000 C CNN
+F 2 "" H 3575 5025 50  0000 C CNN
+F 3 "" H 3575 5025 50  0000 C CNN
+	1    3575 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 5ABBBA6E
+P 4225 5025
+F 0 "#FLG04" H 4225 5120 50  0001 C CNN
+F 1 "PWR_FLAG" H 4225 5205 50  0000 C CNN
+F 2 "" H 4225 5025 50  0000 C CNN
+F 3 "" H 4225 5025 50  0000 C CNN
+	1    4225 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1775 7300 1775
+Wire Wire Line
+	10300 1875 10575 1875
+Wire Wire Line
+	3575 5025 3575 5100
+Wire Wire Line
+	3575 5100 4100 5100
+Wire Wire Line
+	4225 5025 4225 5100
+Connection ~ 4350 5100
+$Comp
+L ATMEGA168-20PU?Arduino IC1
+U 1 1 5ABB484A
+P 7300 1075
+F 0 "IC1" H 10150 1375 50  0000 L CNN
+F 1 "ATMEGA168-20PU?Arduino" H 10150 1275 50  0000 L CNN
+F 2 "SamacSys_Parts:DIP254P762X457-28" H 10150 1175 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/9225277" H 10150 1075 50  0001 L CNN
+F 4 "Microcontroller" H 10150 975 50  0001 L CNN "Description"
+F 5 "9225277" H 10150 775 50  0001 L CNN "RS Part Number"
+F 6 "Microchip" H 10150 675 50  0001 L CNN "Manufacturer_Name"
+F 7 "ATMEGA168-20PU" H 10150 575 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7300 1075
+	1    0    0    -1  
+$EndComp
+Text Notes 7375 7500 0    60   ~ 0
+Presssure
+Text Notes 7900 7500 0    60   ~ 0
+Sensor
+Text Notes 8150 7650 0    60   ~ 0
+20180328
+$EndSCHEMATC
